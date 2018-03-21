@@ -344,6 +344,15 @@ button:hover {
   padding: 0.5em;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
+
+.input-container{
+  width: 80%;
+  margin:0,auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .text-box {
   border: none;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
@@ -353,6 +362,24 @@ button:hover {
   height: 2.5em;
   margin: 0.5em 0;
   border-radius: 7px;
+}
+.fa-usd{
+	padding:20px;
+	color:white;
+	text-shadow: 1px 1px 4px black; 
+	border-radius: 50%;
+}
+
+.number-box {
+  border: none;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  font-size: 1.5em;
+  padding: 0.5em;
+  height: 2.5em;
+  margin: 0.5em 0;
+  border-radius: 7px;
+  text-align: center;
 }
 
 .select-box {
@@ -618,6 +645,22 @@ button:hover {
   border-top: #686868 1px solid;
 }
 
+.donate-button {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background: rgb(210, 35, 42);
+  color: #FFF;
+  margin: 50px auto 40px;
+  padding: 8px 24px 12px;
+  text-decoration: none;
+}
+
+.donate-button > .button-large-text {
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
 /* Media Queries */
 @media screen and (min-width: 350px) {
   .card-text {
@@ -628,9 +671,6 @@ button:hover {
   }
   .slider {
     width: 315px;
-  }
-  .contributions-row-heading {
-    padding: 0.5em;
   }
   .results {
     width: 90%;
