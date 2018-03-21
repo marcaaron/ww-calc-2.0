@@ -6,9 +6,6 @@ class IndividualResults extends Component {
     if (this.props.sizeOfHousehold < 2) {
       return (
         <div className={`results ${this.props.resultStyle}`}>
-          <div className="header-box">
-            <h1>Calculator Results:</h1>
-          </div>
           <div className="middle-box">
             <h2>PROJECTED CONTRIBUTIONS</h2>
           </div>
