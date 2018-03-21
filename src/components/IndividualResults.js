@@ -10,13 +10,6 @@ class IndividualResults extends Component {
             <h1>Calculator Results:</h1>
           </div>
           <div className="middle-box">
-            <h2>CURRENT COSTS</h2>
-          </div>
-          <div className="total-box">
-            <p>${this.props.currentCosts}/mo</p>
-            <p>(${parseInt(this.props.currentCosts * 12, 10)}/yr)</p>
-          </div>
-          <div className="middle-box">
             <h2>PROJECTED CONTRIBUTIONS</h2>
           </div>
           <div className="contributions-box">
