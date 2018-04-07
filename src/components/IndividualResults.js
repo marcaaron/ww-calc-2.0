@@ -1,4 +1,3 @@
-import Socials from "../components/Socials";
 import DonateButton from '../components/DonateButton'
 import React, { Component } from "react";
 import { addCommas } from '../helpers/helper-functions';
@@ -65,12 +64,7 @@ class IndividualResults extends Component {
 			   </div>
             ]
 		  }
-          <Socials
-            killClass={this.props.killClass}
-            savings={this.props.savings}
-            imageURL={this.props.imageURL}
-            size="40"
-          />
+
 
           <DonateButton />
 
@@ -163,12 +157,6 @@ class IndividualResults extends Component {
               </div>
             ]
           }
-          <Socials
-            killClass={this.props.killClass}
-            savings={this.props.savings}
-            imageURL={this.props.imageURL}
-            size="40"
-          />
 
           <DonateButton />
         </div>
