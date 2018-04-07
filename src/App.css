@@ -107,6 +107,16 @@ button::-moz-focus-inner {
   padding: 0;
 }
 
+/* Start Button Text */
+.button-sub-text{
+	width:100%;
+	padding:0.75em;
+	background-color: #f7f7f7;
+	text-align: center;
+	font-size: 0.95em;
+	line-height: 1.5em;
+}
+
 /* Tip Section */
 .tip-box {
   background-color: white;
@@ -366,7 +376,7 @@ button:hover {
 .fa-usd{
 	padding:20px;
 	color:white;
-	text-shadow: 1px 1px 4px black; 
+	text-shadow: 1px 1px 4px black;
 	border-radius: 50%;
 }
 
@@ -488,6 +498,12 @@ button:hover {
   align-items: center;
   justify-content: center;
 }
+.premium-disclaimer {
+  text-align: center;
+  padding: 0.7em 1.5em;
+  /* margin-bottom: 0.5em; */
+  font-size: 0.8em;
+}
 .cost-bars-container {
   width: 100%;
   border-bottom: 1px solid #686868;
@@ -516,6 +532,7 @@ button:hover {
 }
 .color-bar-text {
   color: white;
+  font-size:1.2em;
 }
 .result-percentage {
   font-size: 2em;
@@ -578,6 +595,14 @@ button:hover {
   font-size: 0.9em;
   margin-bottom: 0.5em;
   text-align: center;
+}
+
+.message-box {
+  font-size: 1.2em;
+  margin: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  border-bottom: 0.5px solid #686868;
 }
 
 .results-total {
@@ -682,7 +707,7 @@ button:hover {
     width: 90%;
     padding: 20px;
   }
-  button {
+  button, .button-sub-text {
     width: 90%;
   }
   .slider {
@@ -712,7 +737,7 @@ button:hover {
     width: 402px;
   }
 
-  button {
+  button, .button-sub-text {
     width: 446.39px;
   }
 }
